@@ -1,7 +1,5 @@
 scotchTodo.component('todoList', {
-  /*bindings: {
-    allList: '='
-  },*/
+  
    controller: function (todoObjs) {
     var cn = this;
     this.$onInit = function() {
