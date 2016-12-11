@@ -1,0 +1,16 @@
+<table id="todo-list"  class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Task</th>
+      <th>Enter By</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="todo in $ctrl.allList">
+      <th scope="row" ng-bind="$index"></th>
+      <td ng-bind="todo.text"></td>
+      <td ng-bind="todo.enterBy"></td>
+    </tr> 
+  </tbody> 
+</table>
